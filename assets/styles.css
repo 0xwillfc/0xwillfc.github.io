@@ -112,7 +112,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
   z-index: 1;
   background: linear-gradient(rgba(3, 8, 6, 0.72), rgba(3, 8, 6, 0.96));
 }
-/* Disciplina de IA: overlay leve — a chuva matrix já tem o próprio escurecimento por cima */
+/* Disciplina de IA: overlay leve - a chuva matrix já tem o próprio escurecimento por cima */
 .page-bg--precisao::after {
   background: linear-gradient(rgba(3, 8, 6, 0.18), rgba(3, 8, 6, 0.34));
 }
@@ -417,7 +417,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .material-toolbar > p { margin: 0; color: var(--muted); font-family: var(--font-mono); font-size: 0.75rem; }
 .material-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; }
 .material-card { position: relative; display: block; min-height: 19rem; padding: 2.25rem 1.35rem 1.35rem; border: 1px solid var(--line); border-radius: 0 var(--radius) var(--radius) var(--radius); background: rgba(10, 23, 16, 0.88); color: var(--text); text-decoration: none; box-shadow: 0 12px 35px rgba(0, 0, 0, 0.22); transition: transform var(--ease), border-color var(--ease), box-shadow var(--ease); }
-/* só cartões clicáveis reagem ao passar o mouse — <article> não é link */
+/* só cartões clicáveis reagem ao passar o mouse - <article> não é link */
 a.material-card:hover { transform: translateY(-4px); border-color: var(--line-strong); box-shadow: var(--shadow); }
 .material-card:focus-visible { outline: 3px solid var(--yellow); outline-offset: 4px; }
 .material-card[hidden] { display: none; }

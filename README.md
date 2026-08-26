@@ -1,4 +1,4 @@
-# Site — William Franco Carneiro
+# Site - William Franco Carneiro
 
 Site estático (HTML/CSS/JS, sem framework) com informações de ensino, pesquisa e
 materiais didáticos. Publicado via GitHub Pages.
@@ -26,7 +26,7 @@ professor-site/
 
 ## Como adicionar materiais para download
 
-Ver [materiais/LEIA-ME.md](materiais/LEIA-ME.md) — inclui o HTML pronto para copiar.
+Ver [materiais/LEIA-ME.md](materiais/LEIA-ME.md) - inclui o HTML pronto para copiar.
 
 Resumo: coloque o arquivo na subpasta da disciplina, troque o cartão de `<article>`
 para `<a href="..." download>` e adicione a classe `material-card--download`.
@@ -42,7 +42,7 @@ Abra `http://localhost:5500` no navegador.
 ## Cache dos assets
 
 `styles.css` e `main.js` são referenciados com `?v=N` em todas as páginas. **Ao editar
-qualquer um dos dois, incremente o número em todos os HTML** — sem isso o navegador
+qualquer um dos dois, incremente o número em todos os HTML** - sem isso o navegador
 dos visitantes continua servindo a versão antiga.
 
 ## Convenções

@@ -14,7 +14,7 @@ Coloque aqui os arquivos que ficarão disponíveis no site (PDF, XLSX, CSV, ZIP,
 
 ## Como nomear
 
-Use letras minúsculas, sem acento e sem espaço — espaço em nome de arquivo vira `%20` na URL e
+Use letras minúsculas, sem acento e sem espaço - espaço em nome de arquivo vira `%20` na URL e
 atrapalha o compartilhamento do link.
 
 ```
@@ -54,7 +54,7 @@ o formato/tamanho real e o texto "Baixar".
 ## Limites do GitHub Pages
 
 - Até 100 MB por arquivo; repositório todo idealmente abaixo de 1 GB.
-- Arquivos binários ficam no histórico do Git para sempre — cada nova versão de um PDF
+- Arquivos binários ficam no histórico do Git para sempre - cada nova versão de um PDF
   soma ao tamanho do repositório. Para material atualizado com frequência, considere
   Git LFS ou hospedar em Zenodo/Drive e apenas linkar.
 - Todo o conteúdo é público. Não publique material com restrição de direitos autorais.
