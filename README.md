@@ -19,8 +19,9 @@ professor-site/
 ├── metodos.html            apoio: análise reprodutível
 ├── pesquisa.html           linhas e projetos
 ├── extensao.html           extensão
-├── assets/                 CSS, JS, imagens
-└── materiais/              arquivos para download (ver materiais/LEIA-ME.md)
+├── assets/                 CSS, JS e imagens usadas pelo site
+├── materiais/              arquivos para download (ver materiais/LEIA-ME.md)
+└── _arquivo/               mídias guardadas, fora do Git (ver _arquivo/LEIA-ME.md)
 ```
 
 ## Como adicionar materiais para download

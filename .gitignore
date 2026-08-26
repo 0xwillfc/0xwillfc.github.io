@@ -9,19 +9,9 @@ desktop.ini
 *.swp
 
 # ---------------------------------------------------------------
-# Assets que NÃO são usados por nenhuma página.
-# Continuam no seu computador, mas não vão para o GitHub — arquivo
-# binário commitado fica no histórico para sempre e incha o repositório.
-# Para publicar algum deles, remova a linha correspondente daqui.
+# Imagens e vídeos guardados que o site não usa (ver _arquivo/LEIA-ME.md).
+# Ficam no seu computador, mas não vão para o GitHub: arquivo binário
+# commitado permanece no histórico para sempre e incha o repositório.
+# Para publicar algum, mova-o de volta para assets/ e use-o em uma página.
 # ---------------------------------------------------------------
-assets/bg-bioinfo.mp4
-assets/img-bg-IA.jpg
-assets/bg-aquicultura-tech.jpg
-assets/bg-precisao.png
-assets/bg-bioinfo.jpg
-assets/bg-bioinfo-dna.jpg
-assets/img-aquicultura.svg
-assets/img-dna.svg
-assets/img-hero-aqua-ia.svg
-assets/img-ia-precisao.svg
-assets/img-pesquisa.svg
+_arquivo/

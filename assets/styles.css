@@ -296,6 +296,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .research-projects { padding-top: 1.5rem; }
 .page-section-heading h2 { margin-bottom: 0.7rem; color: #ecfff3; font-weight: 700; letter-spacing: -0.03em; font-size: clamp(1.7rem, 3.4vw, 2.5rem); }
 .page-section-heading p { max-width: 62ch; color: var(--muted); }
+.page-section-heading a { color: var(--green); text-decoration: underline; text-underline-offset: 0.2em; }
 .section-heading { max-width: 54rem; margin-bottom: 3.3rem; }
 .section-heading h2, .contact h2 { margin-bottom: 0.9rem; color: #ecfff3; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.05; font-weight: 700; letter-spacing: -0.04em; }
 .section-heading > p:last-child { max-width: 62ch; color: var(--muted); }
