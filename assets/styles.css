@@ -442,6 +442,17 @@ a.material-card:hover { transform: translateY(-4px); border-color: var(--line-st
 .material-card__code { color: var(--cyan); font-family: var(--font-mono); font-size: 0.75rem; }
 .material-card h3 { margin-top: 2.4rem; color: #eafff1; font-size: 1.38rem; line-height: 1.15; }
 .material-card > p:not(.material-card__code) { color: var(--muted); font-size: 0.79rem; }
+.material-card--downloads { min-height: 21rem; border-color: var(--line-strong); }
+.material-card__downloads { display: grid; gap: 0.55rem; margin-top: 1.15rem; }
+.material-card__download-link { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; padding: 0.72rem 0.78rem; border: 1px solid var(--line); border-radius: 0.3rem; background: rgba(69, 242, 139, 0.045); color: var(--text); text-decoration: none; transition: border-color var(--ease), background var(--ease), transform var(--ease); }
+.material-card__download-link:hover { transform: translateX(3px); border-color: var(--green); background: rgba(69, 242, 139, 0.085); }
+.material-card__download-link:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+.material-card__download-link > span:first-child { display: grid; gap: 0.18rem; min-width: 0; }
+.material-card__download-link strong { color: #eafff1; font-size: 0.76rem; }
+.material-card__download-link small { color: var(--muted); font-family: var(--font-mono); font-size: 0.61rem; }
+.material-card__download-link .status { flex: 0 0 auto; font-family: var(--font-mono); font-size: 0.68rem; }
+.material-card__download-link .status::before { content: "↓ "; }
+.material-card__download-link .status::after { content: ""; }
 .material-card__footer { position: absolute; left: 1.35rem; right: 1.35rem; bottom: 1.35rem; display: flex; justify-content: space-between; align-items: center; padding-top: 0.85rem; border-top: 1px solid var(--line); color: var(--muted); font-family: var(--font-mono); font-size: 0.75rem; }
 .status { color: var(--green); font-weight: 600; }
 .status::before { content: "["; }.status::after { content: "]"; }
